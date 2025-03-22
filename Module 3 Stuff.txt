@@ -1,0 +1,38 @@
+MAE (Mean Absolute Error):
+	Pros:
+		Simple to understand
+		In the same units
+	Cons:
+		Problems with outliers
+		Not differentiable
+MSE (Mean Squared Error):
+	Pros:
+		Differentiable
+		Find a min/max
+		Easy to compare with other models
+		Weights Errors
+	Cons:
+		Not the same units as the data
+		Very sensitive to outliers
+		Weights Errors
+RMSE (Root Mean Squared Error):
+	Pros:
+		Original units
+	Cons:
+		Sensitive to outliers
+		More complex (ie. Big O time)
+RMSLE (Root Mean Squared Log Error):
+	Pros:
+		Really good with a big range of numbers (ie. small to very large numbers)
+		Can handle outliers better (little)
+		Can over punish overestimations
+	Cons:
+		Not compatible with negative numbers
+		More complex (ie. Big O time)
+		Can over punish overestimations
+R^2
+	Pros:
+		Domain knowledge is not needed (ie. saying a house is off by $180k depending on the value of the house, like $3M+ then who cares, but if less then stress. This is domain knowledge)
+	Cons:
+		Difficult to explain
+

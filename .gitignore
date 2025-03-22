@@ -1,0 +1,17 @@
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.h5
+*.weights.h5
+*.pkl
+
+Module\ 3/california
+Module\ 5/uncompressed
+Module\ 5/Signs
+Module\ 6/data
+venv
