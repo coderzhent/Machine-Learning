@@ -9,6 +9,7 @@
 *.h5
 *.weights.h5
 *.pkl
+*.pdf
 
 Module\ 3/california
 Module\ 5/uncompressed
